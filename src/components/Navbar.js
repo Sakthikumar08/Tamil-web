@@ -62,7 +62,7 @@ const Navbar = () => {
       </Link>
     </li>
     <li className="hover:bg-yellow-400 hover:text-black p-2">
-      <Link to="/choladynasty" onClick={toggleMenu}>
+      <Link to="/choradynasty" onClick={toggleMenu}>
         Chola Dynasty
       </Link>
     </li>
