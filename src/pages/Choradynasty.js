@@ -81,7 +81,7 @@ const ChoraDynasty = () => {
 
   return (
     <div className="bg-gray-900 text-gray-100 p-6 md:p-10 lg:p-16">
-      <h1 className="text-4xl font-bold mb-10 text-center text-green-400">சேரர் வம்சம்</h1>
+      <h1 className="text-4xl font-bold mb-10 text-center text-green-400">சோழர் வம்சம்</h1>
 
       <div className="mb-12 max-w-[600px] mx-auto">
   <img

@@ -20,7 +20,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="text-xl font-bold text-yellow-400 tracking-widest">
-          தமிழ் பாரம்பரியம்
+        அறிவொளி
         </div>
       </div>
 
@@ -33,26 +33,26 @@ const Navbar = () => {
         <ul className="mt-20 space-y-6 px-6 text-lg">
           <li className="hover:text-yellow-400 transition duration-300">
             <Link to="/directionary" onClick={toggleMenu}>
-              Dictionary
+            அகராதி
             </Link>
           </li>
           <li className="hover:text-yellow-400 transition duration-300">
             <Link to="/grammar-error" onClick={toggleMenu}>
-              Grammar Error
+            தமிழ் இலக்கண சரிபார்ப்பு
             </Link>
           </li>
           <li className="hover:text-yellow-400 transition duration-300">
             <Link to="/pure-tamil" onClick={toggleMenu}>
-              Pure Tamil
+            தமிழ் மொழிபெயர்பு கருவி
             </Link>
           </li>
           <li className="hover:text-yellow-400 transition duration-300">
             <Link to="/tamil-tutorial" onClick={toggleMenu}>
-              Tamil Tutorial
+            தமிழ் கல்வி கணையம்
             </Link>
           </li>
           <li className="relative group hover:text-yellow-400 transition duration-300">
-  <div className="cursor-pointer">King of kings</div>
+  <div className="cursor-pointer">வேந்தர் வம்சம்</div>
 
   {/* Submenu */}
   <ul className="absolute left-full top-0 mt-0 ml-2 bg-black  text-white text-sm w-48 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transform -translate-x-4 transition-all duration-300 z-50">
@@ -75,22 +75,22 @@ const Navbar = () => {
 </li>
           <li className="hover:text-yellow-400 transition duration-300">
             <Link to="/tamiltradition" onClick={toggleMenu}>
-            Tamil Tradition
+            தமிழர் பாரம்பரியம்
             </Link>
           </li>
           <li className="hover:text-yellow-400 transition duration-300">
             <Link to="/tamilsanghaliterature" onClick={toggleMenu}>
-            Tamil Sangha literature
+            தமிழ் சங்க இலக்கியங்கள்
             </Link>
           </li>
           <li className="hover:text-yellow-400 transition duration-300">
             <Link to="/tamilinscriptions" onClick={toggleMenu}>
-            Tamil Inscriptions
+            தமிழர் கல்வெட்டுகள்
             </Link>
           </li>
           <li className="hover:text-yellow-400 transition duration-300">
             <Link to="/tamilculture" onClick={toggleMenu}>
-            Tamil Culture
+            தமிழர் கலாச்சாரம்
             </Link>
           </li>
          

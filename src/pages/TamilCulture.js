@@ -1,13 +1,11 @@
 import React from 'react';
-import ch1 from '../assets/CHERA/ch1.jpg';
-import ch2 from '../assets/CHERA/ch2.jpg';
-import ch3 from '../assets/CHERA/ch3.jpg';
-import ch4 from '../assets/CHERA/ch4.jpg';
-import ch5 from '../assets/CHERA/ch5.jpg';
-import ch6 from '../assets/CHERA/ch6.jpg';
-import ch7 from '../assets/CHERA/ch7.jpg';
-import ch8 from '../assets/CHERA/ch8.jpg';
-import ch9 from '../assets/CHERA/ch9.jpg';
+import ch1 from '../assets/CLUTURES/ch1.jpg';
+import ch2 from '../assets/CLUTURES/ch2.jpg';
+import ch3 from '../assets/CLUTURES/ch3.jpg';
+import ch4 from '../assets/CLUTURES/ch4.jpg';
+import ch5 from '../assets/CLUTURES/ch5.jpg';
+import ch6 from '../assets/CLUTURES/ch6.jpg';
+
 
 
 const TamilCulture = () => {
@@ -15,7 +13,7 @@ const TamilCulture = () => {
         {
           title: ' தமிழ்நாடு திருக்கலை',
           content: `தமிழ்நாடு என்பது பல நூற்றாண்டுகளைக் கமாண்டு செய்த, அதன் கலை மற்றும் பொறியியல் brillianceஐ பிரதிபலிக்கும் மிகப் பரபரப்பான மற்றும் எளிய கட்டிடக்கலை பாரம்பரியத்துடன் கூடிய நிலமாகும். ராக் கட்டமான கோயில்களிலிருந்து அந்த Dravidian-styled கட்டிடங்கள் வரை, இந்த மாநிலத்தின் கட்டிடக்கலை அதன் கலை, மதம் மற்றும் பொறியியல் பாரம்பரியத்தை பிரதிபலிக்கின்றது. தமிழ்நாட்டின் கட்டிடக்கலை அரியமாக பவுன் செய்யப்பட்ட கோயில்களில் இந்த நாட்டின் மக்களின் பக்தி, சிருஷ்டி மற்றும் திறமையை பிரதிபலிக்கின்றது.`,
-          img: ch2,
+          img: ch1,
         },
         {
           title: 'தமிழ்நாட்டின் கட்டிடக்கலையின் முக்கிய அம்சங்கள்',
@@ -49,7 +47,7 @@ const TamilCulture = () => {
 
       <div className="mb-12 max-w-[600px] mx-auto">
   <img
-    src={ch9}
+    src={ch2}
     alt="Chera Dynasty"
     className="rounded-2xl shadow-2xl w-full object-cover"
   />

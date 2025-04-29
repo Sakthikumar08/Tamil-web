@@ -1,13 +1,11 @@
 import React from 'react';
-import ch1 from '../assets/CHERA/ch1.jpg';
-import ch2 from '../assets/CHERA/ch2.jpg';
-import ch3 from '../assets/CHERA/ch3.jpg';
-import ch4 from '../assets/CHERA/ch4.jpg';
-import ch5 from '../assets/CHERA/ch5.jpg';
-import ch6 from '../assets/CHERA/ch6.jpg';
-import ch7 from '../assets/CHERA/ch7.jpg';
-import ch8 from '../assets/CHERA/ch8.jpg';
-import ch9 from '../assets/CHERA/ch9.jpg';
+import ch1 from '../assets/LITERATURE/ch1.jpg';
+import ch2 from '../assets/LITERATURE/ch2.jpg';
+import ch3 from '../assets/LITERATURE/ch3.jpg';
+import ch4 from '../assets/LITERATURE/ch4.jpg';
+import ch5 from '../assets/LITERATURE/ch5.jpg';
+import ch6 from '../assets/LITERATURE/ch6.jpg';
+
 
 
 const TamilSanghaliterature = () => {
@@ -15,7 +13,7 @@ const TamilSanghaliterature = () => {
         {
           title: ' சங்க இலக்கியத்தின் வரலாறு மற்றும் சிறப்பம்சங்கள்',
           content: `சங்க இலக்கியம் கிமு 300 முதல் கிபி 300 வரையிலான காலத்தில் தென் இந்தியாவில் தமிழ் பேசும் இராச்சியங்களில் மலர்ந்த தொன்மையான இலக்கிய பாரம்பரியமாகும். "சங்கம்" என்பதற்கு கவிஞர்கள் கூடுவது என்று பொருள். மதுரையில் மூன்று சங்கங்கள் நடந்ததாக நம்பப்படுகிறது. சங்க இலக்கியம் உலகிலேயே பழமையான இலக்கியங்களில் ஒன்றாகும். இது செர, சோழ, பாண்டிய மன்னர்கள் காலத்துப் புலவர்கள் இயற்றிய தமிழ் இலக்கியங்களாகும். சங்க இலக்கியத்தின் முக்கிய சிறப்புகள் "அகம்" (உள் உலகம்) மற்றும் "புறம்" (வெளி உலகம்) என இரு பிரிவுகளாக வகைப்படுத்தப்பட்டுள்ளன.`,
-          img: ch2,
+          img: ch1,
         },
         {
           title: 'அகமும் புறமும் – மையக் கருப்பொருட்கள்',
@@ -49,7 +47,7 @@ const TamilSanghaliterature = () => {
 
       <div className="mb-12 max-w-[600px] mx-auto">
   <img
-    src={ch9}
+    src={ch2}
     alt="Chera Dynasty"
     className="rounded-2xl shadow-2xl w-full object-cover"
   />
