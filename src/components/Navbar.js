@@ -58,17 +58,17 @@ const Navbar = () => {
   <ul className="absolute left-full top-0 mt-0 ml-2 bg-black  text-white text-sm w-48 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transform -translate-x-4 transition-all duration-300 z-50">
     <li className="hover:bg-yellow-400 hover:text-black p-2">
       <Link to="/cheradynasty" onClick={toggleMenu}>
-        Chera Dynasty
+      சேரர் வம்சம்
       </Link>
     </li>
     <li className="hover:bg-yellow-400 hover:text-black p-2">
       <Link to="/choradynasty" onClick={toggleMenu}>
-        Chola Dynasty
+      சோழர் வம்சம்
       </Link>
     </li>
     <li className="hover:bg-yellow-400 hover:text-black p-2">
       <Link to="/pandyadynasty" onClick={toggleMenu}>
-        Pandya Dynasty
+      பாண்டியர் வம்சம்
       </Link>
     </li>
   </ul>
